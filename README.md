@@ -1,5 +1,5 @@
 # Bio
-My name is Charles Mueller and welcome to my website! I created this site as a location for people to view my projects and learn a little more about myself and my career interests. I am actively searching for a career in the field of Data Science and Analytics. This field intrigues me because it combines my love of mathematics, statistics, and computer science. There is virtually endless data in the world and it is fascinating to me how people are able to utilize it and discover trends they can use to better their business. My personal interest lies within machine learning and its various. 
+My name is Charles Mueller and welcome to my website! I created this site as a location for people to view my projects and learn a little more about myself and my career interests. I am actively searching for a career in the field of Data Science and Analytics. This field intrigues me because it combines my love of mathematics, statistics, and computer science. There is virtually endless data in the world and it is fascinating to me how people are able to utilize it and discover trends they can use to better their business. My personal interest lies within machine learning and its various applications. 
 
 # Projects
 ## Titanic
