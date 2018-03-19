@@ -1,4 +1,3 @@
 # Charles Mueller
 ## About Me
-The purpose of this website is to allow the public to view my projects.
-test
+My name is Charles Mueller and welcome to my website! I created this site as a location for people to view my projects and learn a little more about myself and my career interests.
