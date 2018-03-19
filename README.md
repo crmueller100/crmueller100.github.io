@@ -1,3 +1,4 @@
-# crmueller100.github.io
-Charles Mueller
+# Charles Mueller
+## About Me
+The purpose of this website is to allow the public to view my projects.
 test
