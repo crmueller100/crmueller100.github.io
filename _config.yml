@@ -1,3 +1,47 @@
-theme: jekyll-theme-time-machine
-title: Charles Mueller
-description: You can find information about myself and my projects here!
+# Site
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Charles Mueller
+title: Analytics Engineer
+
+darkmode: false
+
+linkedin_username: charles-mueller
+about_content: | # this will include new lines to allow paragraphs
+  Welcome to my website! My name is Charles and I'm actively working in the field of data science and analytics.
+
+
+content:
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Chicago Traffic Violations
+        description: | # this will include new lines to allow paragraphs
+          Trying to stop my friends and family from feeding money to the city via traffic camera violations
+
+      - layout: top-middle
+        title: Another test project
+        quote: >
+          quote
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+github: [metadata]
