@@ -24,7 +24,7 @@ about_profile_image: linkedin_profile.png
 about_content: | # this will include new lines to allow paragraphs
   My name is Charles and welcome to my website! I created this page as a place to share my professional journey, showcase some of my projects, and give folks an opportunity to connect.
 
-  I'm currently an Analytics Engineer [Aclaimant](https://aclaimant.com/). Outside of my full-time job, I'm passionate about Machine Learning, Software Engineering, and learning about cloud-based infrastructure. I stay up-to-date with the market by subscribing to a multitude of newsletters and blogs, so let me know if you have anyone you think I should add to my feed!
+  I'm currently an Analytics Engineer at [Aclaimant](https://aclaimant.com/). Outside of my full-time job, I'm passionate about Machine Learning, Software Engineering, and learning about cloud-based infrastructure. I stay up-to-date with the market by subscribing to a multitude of newsletters and blogs, so let me know if I should add anyone to my feed!
 
   I'm highly proficient in <mark>Python</mark>, <mark>SQL</mark>, and <mark>Data Engineering</mark>.
 
@@ -45,7 +45,7 @@ content:
         quote: >
           "But I'm sure I came to a complete stop! Oh wait, they sent a video..."
         description: | # this will include new lines to allow paragraphs
-          I did some analysis of Chicago's camera-based ticketing system using their [public data portal](https://data.cityofchicago.org/).
+          I analyzed Chicago's camera-based ticketing system using their [public data portal](https://data.cityofchicago.org/).
           It was a simple project that helped to keep my data analysis skills fresh, as well as uncover insights into citation patterns, particularly regarding ticket hotspots and temporal/seasonal variations.
           Its findings offer insights for residents to stay safe and save money.
 
@@ -117,7 +117,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       In addition to my career and professional life, I enjoy spending time in the following activities:
-        - Playing piano
+        - Practicing piano and performing in shows
         - Studying chess
         - Exercising
         - Playing 16" softball
