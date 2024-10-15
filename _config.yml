@@ -118,9 +118,9 @@ content:
     content: | # this will include new lines to allow paragraphs
       In addition to my career and professional life, I enjoy spending time in the following activities:
         - Practicing piano and performing in shows
-        - Studying chess
-        - Exercising
-        - Playing 16" softball
+        - Analyzing and studying the game of chess
+        - Maintaining an active lifestyle through exercise
+        - Competing in 16" softball leagues
 
 # Footer
 # footer_show_references: true
