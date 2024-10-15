@@ -116,11 +116,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      In addition to my career and professional life, I enjoy spending time in the following activities:
-        - Playing piano
-        - Studying chess
-        - Exercising
-        - Playing in 16" softball league
+    Outside of my professional career, I have several personal interests, including:
+      - Performing shows as a pianist
+      - Analyzing and studying the game of chess
+      - Maintaining an active lifestyle through exercise
+      - Competing in a 16" softball leagues
 
 # Footer
 # footer_show_references: true
