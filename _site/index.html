@@ -20,7 +20,7 @@
 {"@context":"https://schema.org","@type":"WebSite","description":"Charles Mueller","headline":"Analytics Engineer","name":"Analytics Engineer","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico"></head>
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"></head>
 <body class=""><div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
@@ -29,6 +29,10 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print"><li>
+            <a target="_blank" href="https://github.com/crmueller100" class="button button--sacnite button--round-l">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li><li>
             <a target="_blank" href="https://www.linkedin.com/in/charles-mueller" class="button button--sacnite button--round-l">
               <i class="fab fa-linkedin" title="Linkedin link"></i>
             </a>
@@ -39,8 +43,13 @@
 <main class="page-content" aria-label="Content">
     <div class="wrapper"><div class="container intro-container">
   <h3 id="about-me">About Me</h3>
-  <div class="row clearfix"><div class="col-xs-12 ">
-      <p>Welcome to my website! My name is Charles and I’m actively working in the field of data science and analytics.</p>
+  <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" style="background-image: url(/linkedin_profile.png)"></span>
+      </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <p>My name is Charles and I’m a professional Analytics Engineer. 
+I currently work at <a href="https://aclaimant.com/">Aclaimant</a> where I specialize in developing data pipelines, streamlining ETL/ELT processes, and optimizing analytics workflows.
+I’m highly proficient in Python and SQL, with a strong foundation in software engineering principles and a passion for applying machine learning techniques to real-world problems.
+I recently completed my master’s degree in computer science from Georgia Tech (December 2023), further enhancing my theoretical and practical understanding of machine learning and advanced programming concepts.</p>
 
     </div>
   </div>
@@ -51,23 +60,46 @@
             
   <div class="row clearfix layout layout-top-middle border-no">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="chicago-traffic-violations">Chicago Traffic Violations</h4><p class="no-print aditional-links">
+      <h4 id="chess-com-game-analysis">Chess.com Game Analysis</h4>
+<a href="//github.com/crmueller100/chess.com-game-analysis" target="_blank" class="link">View it on GitHub</a><p class="no-print aditional-links">
         
       </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>Trying to stop my friends and family from feeding money to the city via traffic camera violations</p>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">"If you find a good move, look for a better one."
+</p><p>This project offers a comprehensive suite of tools for chess game analysis. Built as a multi-container Docker application, it leverages Chess.com’s public API and uses MongoDB and Stockfish to provide detailed insights into a player’s performance.
+I used Airflow for job orchestration and facilitating automated data pulls and refreshes.
+The application allows users to explore their game history, analyze performance metrics, and identify areas for improvement. It features a user-friendly dashboard interface with filters for time control, color, date, and opening. 
+The integration with Stockfish offers in-depth game analysis, highlighting critical moves and errors.</p>
 
     </div>
   </div>
 
   <div class="row clearfix layout layout-top-middle border-no">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="another-test-project">Another test project</h4><p class="no-print aditional-links">
+      <h4 id="chicago-traffic-violations">Chicago Traffic Violations</h4>
+<a href="//github.com/crmueller100/chicago-traffic-violations" target="_blank" class="link">View it on GitHub</a><p class="no-print aditional-links">
         
       </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">quote
-</p>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">"But I'm sure I came to a complete stop! Oh wait, they sent a video..."
+</p><p>I analyzed Chicago’s camera-based ticketing system using their <a href="https://data.cityofchicago.org/">public data portal</a>.
+It was a simple project that helped to keep my data analysis skills fresh, as well as uncover insights into citation patterns, particularly regarding ticket hotspots and temporal/seasonal variations.
+Its findings offer insights for residents to stay safe and save money.</p>
+
+    </div>
+  </div>
+
+  <div class="row clearfix layout layout-top-middle border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="horsies">Horsies</h4>
+<a href="//github.com/crmueller100/horsies" target="_blank" class="link">View it on GitHub</a><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">"And they're off!"
+</p><p>This was a quick project I made to settle an argument among my friends. “Horsies” is a luck-based board game that involves cards, dice, and probability. 
+After debating with them about which starting position has the highest chance of victory, I decided to simply brute force a solution. 
+Even when presented with my numerical analysis, many remain loyal to their gut instinct. I suppose that’s gambling for you.</p>
 
     </div>
   </div>
@@ -75,11 +107,82 @@
 
           </div>
         
+          <div class="container list-container">
+            <h3 id="experience">Experience</h3>
+            
+  <div class="row clearfix layout layout-left border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="aclaimant">Aclaimant</h4><p><b>Analytics Engineer</b></p><p>May 2018 - Present</p>
+<a href="//aclaimant.com" target="_blank" class="link">aclaimant.com</a><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">Aclaimant. Not Acclaimant. Not A-Claimant. 
+</p><p>Aclaimant was only 15 people when I joined. I was privileged to see it grow to more than double the size.
+As anyone who has worked in a startup can attest to, I take ownership over many responsibilities that expand beyond the scope of my job title.
+I frequently engage in data engineering, data analytics, business intelligence reviews, correspond and/or meet with our customers, and am always open as a point of contact to all other departments for ad hoc requests.</p>
+
+    </div>
+  </div>
+
+
+          </div>
+        
+          <div class="container list-container">
+            <h3 id="education">Education</h3>
+            
+  <div class="row clearfix layout layout-left border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="georgia-institute-of-technology">Georgia Institute of Technology</h4><p><b>Master of Science in Computer Science</b></p><p>2021 - 2023</p><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">&#127925 I'm a Ramblin' Wreck from Georgia Tech...&#127925
+</p><p>Completing a master’s degree in computer science while balancing a full-time job was no simple task, but I’m glad I did it. I took classes from various disciplines within the field of Computer Science, but my specialization was in Machine Learning.
+GA Tech’s program was loaded with hands-on experience, reading technical literature, and learning about the theory and mathematics behind various Machine Learning, Deep Learning, and Reinforcement Learning techniques.</p>
+
+    </div>
+  </div>
+
+  <div class="row clearfix layout layout-left border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="university-of-illinois-at-urbana-champaign">University of Illinois at Urbana-Champaign</h4><p><b>Bachelor of Science in Engineering Mechanics</b></p><p>2012 - 2015</p><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">I-L-L
+</p><p>I couldn’t be happier with my decision to pursue an undergraduate degree in Engineering Mechanics (referred to some as Theoretical and Applied Mechanics (TAM)). As an uncertain teenager trying to choose a career path, a major in Engineering Mechanics provided valuable exposure to a broad range of engineering sub-disciplines.
+The program’s flexibility allowed me to focus on Computational Mechanics during my senior year, which sparked a passion for computational methods.
+This would eventually blossom into a devotion to the fields of data science and software engineering.</p>
+
+    </div>
+  </div>
+
+
+          </div>
+        
+          <div class="container text-container">
+            <h3 id="a-little-more-about-me">A Little More About Me</h3>
+            <div class="row clearfix">
+  <div class="col-md-12">
+    <p>In addition to my career and professional life, I enjoy spending time in the following activities:</p>
+<ul>
+  <li>Practicing piano and performing in shows</li>
+  <li>Analyzing and studying the game of chess</li>
+  <li>Maintaining an active lifestyle through exercise</li>
+  <li>Competing in 16” softball leagues</li>
+</ul>
+
+  </div>
+</div>
+
+          </div>
+        
       </div>
   </main><div class="container footer-container">
   <p>
     Charles Mueller -
-    <a href="mailto:" target="_blank"></a>&nbsp;- References on request</p>
+    <a href="mailto:" target="_blank"></a></p>
 </div>
     <script src="/assets/js/index.js"></script>
   

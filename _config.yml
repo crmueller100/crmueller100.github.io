@@ -21,18 +21,18 @@ linkedin_username: charles-mueller
 # About Section
 about_title: About Me
 about_profile_image: linkedin_profile.png
+
+# Technical with specifics
 about_content: | # this will include new lines to allow paragraphs
-  My name is Charles and welcome to my website! I created this page as a place to share my professional journey, showcase some of my projects, and give folks an opportunity to connect.
-
-  I'm currently an Analytics Engineer at [Aclaimant](https://aclaimant.com/). Outside of my full-time job, I'm passionate about Machine Learning, Software Engineering, and learning about cloud-based infrastructure. I stay up to date with the market by subscribing to a multitude of newsletters and blogs, so let me know if I should add anyone to my feed!
-
-  I'm highly proficient in <mark>Python</mark>, <mark>SQL</mark>, and <mark>Data Engineering</mark>.
-
-
-    
-# Software engineer mindset
-
-# I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  My name is Charles and I'm a professional Analytics Engineer. 
+  I currently work at [Aclaimant](https://aclaimant.com/) where I specialize in developing data pipelines, streamlining ETL/ELT processes, and optimizing analytics workflows.
+  I'm highly proficient in Python and SQL, with a strong foundation in software engineering principles and a passion for applying machine learning techniques to real-world problems.
+  I recently completed my master's degree in computer science from Georgia Tech (December 2023), further enhancing my theoretical and practical understanding of machine learning and advanced programming concepts.
+# Friendly and high-level
+# about_content: | # this will include new lines to allow paragraphs
+#   My name is Charles and welcome to my website! I created this page as a place to share my professional journey, showcase some of my projects, and give folks an opportunity to connect.
+#   I'm currently an Analytics Engineer at [Aclaimant](https://aclaimant.com/). Outside of my full-time job, I'm passionate about Machine Learning, Software Engineering, and learning about cloud-based infrastructure. I stay up to date with the market by subscribing to a multitude of newsletters and blogs, so let me know if I should add anyone to my feed!
+#   I'm highly proficient in <mark>Python</mark>, <mark>SQL</mark>, and <mark>Data Engineering</mark>.
 
 content:
   - title: Projects # Title for the section
@@ -46,7 +46,7 @@ content:
           "If you find a good move, look for a better one."
         description: | # this will include new lines to allow paragraphs
           This project offers a comprehensive suite of tools for chess game analysis. Built as a multi-container Docker application, it leverages Chess.com's public API and uses MongoDB and Stockfish to provide detailed insights into a player's performance.
-          I used Airflow for job orchestration and enabling automated data pulls and refreshes.
+          I used Airflow for job orchestration and facilitating automated data pulls and refreshes.
           The application allows users to explore their game history, analyze performance metrics, and identify areas for improvement. It features a user-friendly dashboard interface with filters for time control, color, date, and opening. 
           The integration with Stockfish offers in-depth game analysis, highlighting critical moves and errors.
 
@@ -118,7 +118,7 @@ content:
         quote: >
           I-L-L
         description: | 
-          I couldn't be happier with my decision to pursue an undergraduate degree in Engineering Mechanics (referred to some as Theoretical and Applied Mechanics (TAM)). As an uncertain teenager trying to choose a career path, a major in Engineering Mechanics facilitated valuable exposure to a broad range of engineering sub-disciplines.
+          I couldn't be happier with my decision to pursue an undergraduate degree in Engineering Mechanics (referred to some as Theoretical and Applied Mechanics (TAM)). As an uncertain teenager trying to choose a career path, a major in Engineering Mechanics provided valuable exposure to a broad range of engineering sub-disciplines.
           The program's flexibility allowed me to focus on Computational Mechanics during my senior year, which sparked a passion for computational methods.
           This would eventually blossom into a devotion to the fields of data science and software engineering.
 
