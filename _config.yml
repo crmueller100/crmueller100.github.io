@@ -24,7 +24,7 @@ about_profile_image: linkedin_profile.png
 about_content: | # this will include new lines to allow paragraphs
   My name is Charles and welcome to my website! I created this page as a place to share my professional journey, showcase some of my projects, and give folks an opportunity to connect.
 
-  I'm currently an Analytics Engineer at [Aclaimant](https://aclaimant.com/). Outside of my full-time job, I'm passionate about Machine Learning, Software Engineering, and learning about cloud-based infrastructure. I stay up-to-date with the market by subscribing to a multitude of newsletters and blogs, so let me know if I should add anyone to my feed!
+  I'm currently an Analytics Engineer at [Aclaimant](https://aclaimant.com/). Outside of my full-time job, I'm passionate about Machine Learning, Software Engineering, and learning about cloud-based infrastructure. I stay up to date with the market by subscribing to a multitude of newsletters and blogs, so let me know if I should add anyone to my feed!
 
   I'm highly proficient in <mark>Python</mark>, <mark>SQL</mark>, and <mark>Data Engineering</mark>.
 
@@ -39,6 +39,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Chess.com Game Analysis
+        link: github.com/crmueller100/chess.com-game-analysis
+        link_text: View it on GitHub
+        quote: >
+          "If you find a good move, look for a better one."
+        description: | # this will include new lines to allow paragraphs
+          This project offers a comprehensive suite of tools for chess game analysis. Built as a multi-container Docker application, it leverages Chess.com's public API and uses MongoDB and Stockfish to provide detailed insights into a player's performance.
+          I used Airflow for job orchestration and enabling automated data pulls and refreshes.
+          The application allows users to explore their game history, analyze performance metrics, and identify areas for improvement. It features a user-friendly dashboard interface with filters for time control, color, date, and opening. 
+          The integration with Stockfish offers in-depth game analysis, highlighting critical moves and errors.
+
+      - layout: top-middle
         title: Chicago Traffic Violations
         link: github.com/crmueller100/chicago-traffic-violations
         link_text: View it on GitHub
@@ -52,13 +64,13 @@ content:
       - layout: top-middle
         title: Horsies
         link: github.com/crmueller100/horsies
-        link_text: View it on Github
+        link_text: View it on GitHub
         quote: >
-          And they're off!
+          "And they're off!"
         description: | # this will include new lines to allow paragraphs
           This was a quick project I made to settle an argument among my friends. "Horsies" is a luck-based board game that involves cards, dice, and probability. 
           After debating with them about which starting position has the highest chance of victory, I decided to simply brute force a solution. 
-          Even when presented with my numerical analysis, many still remain loyal to their gut instinct. I suppose that's gambling for you.
+          Even when presented with my numerical analysis, many remain loyal to their gut instinct. I suppose that's gambling for you.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -85,9 +97,6 @@ content:
       #   quote: >
       #     Buy low [volatility], sell high [volatility]
       #   description: | # this will include new lines to allow paragraphs
-      #     Aclaimant was only 15 people when I joined. I was privileged to see it grow to more than double the size.
-      #     As anyone who has worked in a startup can attest to, I take ownership over many responsibilities that expand beyond the scope of my job title.
-      #     I frequently engage in data engineering, data analytics, business intelligence reviews, correspond and/or meet with our customers, and am always open as a point of contact to all other departments for ad hoc requests.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -97,9 +106,9 @@ content:
         caption: 2021 - 2023
         sub_title: Master of Science in Computer Science
         quote: >
-          &#127925 I'm a Ramlin' Wreck from Georgia Tech...&#127925
+          &#127925 I'm a Ramblin' Wreck from Georgia Tech...&#127925
         description: | # this will include new lines to allow paragraphs
-          Completing a Master's in Computer Science while balancing a full-time job was no simple task, but I'm glad I did it. I took classes from various disciplines within the field of Computer Science, but my specialization was in Machine Learning.
+          Completing a master's degree in computer science while balancing a full-time job was no simple task, but I'm glad I did it. I took classes from various disciplines within the field of Computer Science, but my specialization was in Machine Learning.
           GA Tech's program was loaded with hands-on experience, reading technical literature, and learning about the theory and mathematics behind various Machine Learning, Deep Learning, and Reinforcement Learning techniques.
 
       - layout: left
@@ -109,7 +118,7 @@ content:
         quote: >
           I-L-L
         description: | 
-          I couldn't be happier with my decision to pursue am undergraduate degree in Engineering Mecahnics (referred to some as Theoretical and Applied Mechanics (TAM)). As an uncertain teenager trying to choose a career path, a major in Engineering Mechanics facilitated valuable exposure to a broad range of engineering sub-disciplines.
+          I couldn't be happier with my decision to pursue an undergraduate degree in Engineering Mechanics (referred to some as Theoretical and Applied Mechanics (TAM)). As an uncertain teenager trying to choose a career path, a major in Engineering Mechanics facilitated valuable exposure to a broad range of engineering sub-disciplines.
           The program's flexibility allowed me to focus on Computational Mechanics during my senior year, which sparked a passion for computational methods.
           This would eventually blossom into a devotion to the fields of data science and software engineering.
 
