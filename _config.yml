@@ -52,12 +52,24 @@ content:
           The integration with Stockfish offers in-depth game analysis, highlighting critical moves and errors.
 
       - layout: top-middle
+        title: Child Mind Institute - Problematic Internet Use (Kaggle Competition)
+        link: github.com/crmueller100/child-mind-institute-problematic-internet-use
+        link_text: View it on GitHub
+        quote: >
+          "If at first you don't succeed, try, try, try again... with a slightly different model."
+        description: |
+          My first foray into the world of Kaggle competitions was a great experience that ended with me placing in the top 10% of submissions and earning my first bronze medal!
+          It required a unique blend of my own creativity plus learning from an active community guided towards the same goal.
+          Combining my knowledge of machine learning and data analysis, the goal was to create a model that predicted the likelihood of problematic internet use in adolescents.
+          The model was based on a dataset provided by the Child Mind Institute, which contained survey responses from almost 4,000 adolescents.
+
+      - layout: top-middle
         title: Chicago Traffic Violations
         link: github.com/crmueller100/chicago-traffic-violations
         link_text: View it on GitHub
         quote: >
           "But I'm sure I came to a complete stop! Oh wait, they sent a video..."
-        description: | # this will include new lines to allow paragraphs
+        description: |
           I analyzed Chicago's camera-based ticketing system using their [public data portal](https://data.cityofchicago.org/).
           It was a simple project that helped to keep my data analysis skills fresh, as well as uncover insights into citation patterns, particularly regarding ticket hotspots and temporal/seasonal variations.
           Its findings offer insights for residents to stay safe and save money.
@@ -68,7 +80,7 @@ content:
         link_text: View it on GitHub
         quote: >
           "And they're off!"
-        description: | # this will include new lines to allow paragraphs
+        description: |
           This was a quick project I made to settle an argument among my friends. "Horsies" is a luck-based board game that involves cards, dice, and probability. 
           After debating with them about which starting position has the highest chance of victory, I decided to simply brute force a solution. 
           Even when presented with my numerical analysis, many remain loyal to their gut instinct. I suppose that's gambling for you.
