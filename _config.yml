@@ -48,6 +48,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project offers a comprehensive suite of tools for chess game analysis. Built as a multi-container Docker application, it leverages Chess.com's public API and uses MongoDB and Stockfish to provide detailed insights into a player's performance.
           I used Airflow for job orchestration and facilitating automated data pulls and refreshes.
+          It was deployed to AWS using ECR for container storage, ECS for container deployment, and DocumentDB for managed database services.
           The application allows users to explore their game history, analyze performance metrics, and identify areas for improvement. It features a user-friendly dashboard interface with filters for time control, color, date, and opening. 
           The integration with Stockfish offers in-depth game analysis, highlighting critical moves and errors.
 
